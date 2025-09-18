@@ -4,19 +4,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // Map brand to current green defaults; replace with DeployHQ palette
+        // DeployHQ brand palette (extracted from deployhq.com)
+        // Primary blue and common tints/shades seen in site CSS
         brand: {
-          50: '#f0fdf4',
-          100: '#dcfce7',
-          200: '#bbf7d0',
-          300: '#86efac',
-          400: '#4ade80',
-          500: '#22c55e',
-          600: '#16a34a',
-          700: '#15803d',
-          800: '#166534',
-          900: '#14532d',
-          950: '#052e16',
+          50: '#f8fcff',
+          100: '#f0f8ff',
+          200: '#dff1ff',
+          400: '#299ffe',
+          500: '#0187f3',
+          600: '#0273ff',
+          700: '#047ac4',
         },
       },
     },
